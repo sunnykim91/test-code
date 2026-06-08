@@ -1,0 +1,38 @@
+/* UDS Reset CSS */
+
+/* box-sizing 전역 설정 — 컴포넌트에서 별도 설정 불필요 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 기본 여백 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 폰트 렌더링 최적화 */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 이미지 기본값 */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 입력 폼 폰트 상속 */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
